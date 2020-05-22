@@ -1,4 +1,4 @@
-set SECRET_KEY= "a5&iq&s1u9h6(1_2%pt2w9)f=c$kso=k$c$w@fi9215s=1q0^d"
+set SECRET_KEY= "99irnjdsftk157t_uruu=zsp7n=xzx4ut+$zkj_))fohtle$#3"
 SET ENTORNO = "DEV"
 :: SET ENTORNO = "INT"
 :: SET ENTORNO = "UAT"
