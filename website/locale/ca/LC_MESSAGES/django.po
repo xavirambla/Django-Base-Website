@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-26 18:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\forms.py:20
+msgid "Invalid username - field too short "
+msgstr "Invàlid username - el camp és massa curt"
+
+#: .\templates\layout.html:17
+msgid "My website"
+msgstr "La meva web"
+
+#: .\templates\layout.html:38
+msgid "Hola"
+msgstr "Hola"
+
+#: .\templates\layout.html:41
+msgid "My account"
+msgstr "El meu compte"
+
+#: .\templates\layout.html:42
+msgid "Change Password"
+msgstr "Canviar paraula clau"
+
+#: .\templates\layout.html:43 .\templates\registration\logged_out.html:5
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Logout"
+msgstr "Logout"
+
+#: .\templates\layout.html:65
+msgid "Register"
+msgstr "Registrar"
+
+#: .\templates\layout.html:66 .\templates\registration\changepassword.html:4
+#: .\templates\registration\login.html:34
+msgid "Login"
+msgstr "Login"
+
+#: .\templates\layout.html:105
+msgid "Web provided by"
+msgstr "Web realitzada per"
+
+#: .\templates\registration\changepassword.html:8
+#: .\templates\registration\password_change_form.html:10
+msgid "CHANGE PASSWORD"
+msgstr "CANVIAR PASSWORD"
+
+#: .\templates\registration\changepassword.html:18
+msgid "SAVE"
+msgstr "GUARDAR"
+
+#: .\templates\registration\logged_out.html:10
+msgid "LOGOUT"
+msgstr "LOGOUT"
+
+#: .\templates\registration\logged_out.html:12
+msgid "Logged out!"
+msgstr "Desconnectat!"
+
+#: .\templates\registration\logged_out.html:14
+msgid "Click here to login again."
+msgstr "Clicar aqui per autentificarse de nou"
+
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:10
+#: .\templates\registration\password_reset_email.html:5
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: .\templates\registration\login.html:13 .\tests.py:209
+msgid "Your username and password didn't match. Please try again."
+msgstr "El teu nom o paraula clau no coincideix. Intenta-ho de nou"
+
+#: .\templates\registration\login.html:18
+msgid ""
+"Your account doesn't have access to this page. To proceed,  please login "
+"with an account that has access."
+msgstr ""
+"El teu usuario no té accés a aquesta pàgina. Per seguir, identifica't amb un "
+"compte amb accés"
+
+#: .\templates\registration\login.html:20
+msgid "Please login to see this page."
+msgstr "Si us plau, identifica't per veure aquesta pàgina"
+
+#: .\templates\registration\login.html:39
+msgid "Lost password?"
+msgstr "Has pedut la paraula clau?"
+
+#: .\templates\registration\myaccount_details.html:10
+msgid "MI CUENTA"
+msgstr "EL MEU COMPTE"
+
+#: .\templates\registration\myaccount_details.html:18
+#: .\templates\registration\register.html:32
+msgid "Save"
+msgstr "Guardar"
+
+#: .\templates\registration\password_change_form.html:39
+#: .\templates\registration\register.html:29
+msgid ""
+"Your password must be 8-20 characters long, contain letters and numbers, and "
+"must not contain spaces, special characters, or emoji."
+msgstr ""
+"La teva paraula clau ha de tindre 8-20 caracters, contindre lletres i "
+"números, no contindre espais ni caracters especials ni emoji."
+
+#: .\templates\registration\password_reset_complete.html:10
+msgid "The password has been changed!"
+msgstr "La paraula clau s'ha canviat!"
+
+#: .\templates\registration\password_reset_complete.html:12
+msgid "log in again?"
+msgstr "Identificar-te de nou?"
+
+#: .\templates\registration\password_reset_confirm.html:10
+#: .\templates\registration\password_reset_email.html:10
+#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:29
+msgid "PASSWORD RESET"
+msgstr "REINICIAR PARAULA CLAU"
+
+#: .\templates\registration\password_reset_confirm.html:14
+msgid "Please enter (and confirm) your new password."
+msgstr "Si us plau, entra i confirma la nova paraula de pas"
+
+#: .\templates\registration\password_reset_confirm.html:24
+msgid "New password:"
+msgstr "Nova paraula de pas:"
+
+#: .\templates\registration\password_reset_confirm.html:29
+msgid "Confirm password:"
+msgstr "Confirmar paraula de pas:"
+
+#: .\templates\registration\password_reset_confirm.html:34
+msgid "Change my password"
+msgstr "Canviar la paraula de pas"
+
+#: .\templates\registration\password_reset_confirm.html:39
+msgid "Password reset failed"
+msgstr "Resetejar la paraula de pas ha fallat"
+
+#: .\templates\registration\password_reset_confirm.html:40
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"El link per canviar la paraula de pas no és vàlid, segurament perque ja ha "
+"estat usat anteriorment. Si us plau, demani-ho de nou"
+
+#: .\templates\registration\password_reset_done.html:5
+msgid "Reset password"
+msgstr "Reiniciar paraula de pas"
+
+#: .\templates\registration\password_reset_done.html:10
+msgid "RESET PASSWORD"
+msgstr "REINICIAR PARAULA DE PAS"
+
+#: .\templates\registration\password_reset_done.html:16
+#: .\templates\registration\password_reset_email.html:14
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr ""
+"Li hem enviat les instruccions per canviar la paraula de pas. En cas que no "
+"li arribi en uns minuts, comprobi el correu spam."
+
+#: .\templates\registration\register.html:10
+msgid "REGISTER"
+msgstr "Registrar"
+
+#: .\views.py:48
+msgid "Usuario ya existe, escoja otro nombre de usuario."
+msgstr "L'usuari ja existeix, escull un altre nom d'usuari."
+
+#: .\views.py:59
+msgid "Usuario creado."
+msgstr "Usuari creat."
+
+#: .\views.py:76
+msgid "Datos modificados."
+msgstr "Dades modificades"
+
+#: .\views.py:83
+msgid "Please correct the error below."
+msgstr "Corregeix l'error."
+
+#~ msgid "Bienvenido al sitio"
+#~ msgstr "Benvingut al portal"
