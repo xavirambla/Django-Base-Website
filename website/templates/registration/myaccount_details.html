@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% load i18n %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+                                                  
+    <h1  class="alert alert-primary" role="alert">{% trans "MI CUENTA" %}</h1>
+    <BR/>
+    <form id="register_form" action="{% url 'my_account' %}" method="post">
+        {% csrf_token %}
+    
+        <table >
+            {{ form.as_table }}
+        </table>                
+        <button class="btn btn-primary" type="submit">{% trans "Save" %}</button>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans 'Logout' %}
+{% endblock %}
+
+{% block main %}
+
+    <h1  class="alert alert-primary" role="alert">{% trans 'LOGOUT' %}</h1>
+    <BR/>
+    <p>{% trans 'Logged out!' %}</p>  
+    
+    <a href="{% url 'login'%}">{% blocktrans %}Click here to login again.{% endblocktrans %}</a>
+
+    <BR/>
+ 
+{% endblock %}

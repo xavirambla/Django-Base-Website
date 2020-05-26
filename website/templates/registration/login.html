@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans 'LOGIN' %}
+{% endblock %}
+
+{% block main %}
+
+    <h1  class="alert alert-primary" role="alert">{% trans 'LOGIN' %}</h1>
+    <BR/>
+    {% if form.errors %}
+    <h5  class="alert alert-danger" role="alert" {% blocktrans %}Your username and password didn't match. Please try again.{% endblocktrans %}></h5>
+    {% endif %}   
+
+    {% if next %}
+        {% if user.is_authenticated %}   
+    <p>{% blocktrans %}Your account doesn't have access to this page. To proceed,  please login with an account that has access.{% endblocktrans %}</p>
+        {% else %}
+    <p>{% blocktrans %}Please login to see this page.{% endblocktrans %}</p>
+        {% endif %}
+    {% endif %}
+
+    <form id="login_form" action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="form-group">
+            <input class="form-control" name="password" placeholder="Password" type="password">
+        </div>
+
+          
+        <button class="btn btn-primary" type="submit">{% trans 'Login' %}</button>
+        <input type="hidden" name="next" value="{{ next }}" />
+    </form>
+    <BR/>
+    {# Assumes you setup the password_reset view in your URLconf #}
+    <p><a href="{% url 'password_reset' %}">{% blocktrans %}Lost password?{% endblocktrans %}</a></p>
+
+    {% if error %}
+    
+    {% endif %}   
+ 
+{% endblock %}
+
